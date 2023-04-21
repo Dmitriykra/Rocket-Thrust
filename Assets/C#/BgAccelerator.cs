@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BgAccelerator : MonoBehaviour
 {
-    Rigidbody2D rb;
+    /*Rigidbody2D rb;
     float posX;
     float moveSpeed = 40f;
     void Start()
@@ -12,7 +12,6 @@ public class BgAccelerator : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         posX = Input.acceleration.x * moveSpeed;
@@ -22,5 +21,5 @@ public class BgAccelerator : MonoBehaviour
     private void FixedUpdate()
     {
         rb.velocity = new Vector2(posX, 0f);
-    }   
+    }*/   
 }

@@ -6,7 +6,7 @@ public class PlayerMover : MonoBehaviour
 {
     private float horizontalInput;
     private float sidePlayerSpeed = 1000f;
-    private float sideBorders = 25f;
+    private float sideBorders = 20f;
   
     void Update()
     {
@@ -20,7 +20,6 @@ public class PlayerMover : MonoBehaviour
             horizontalInput = 0f;
         } 
     }
-
     private void SideMove()
     {
         float xAxisMove = transform.position.x + 
